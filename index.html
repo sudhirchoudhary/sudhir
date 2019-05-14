@@ -8,9 +8,15 @@ $name="sudhir";
 </head>
 <body>
   <form>
+    <p id="xyz">sudhir</p>
 
-
-  <button name = "button" value = "OK" type = "button">Click Me</button>
+  <button onclick=fun()>red</button>
+    <?php
+   function fun()
+{
+print("document.getElementById("xyz")");
+}
+?>
 
   </form>
 
